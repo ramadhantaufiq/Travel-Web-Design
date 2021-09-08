@@ -1,0 +1,48 @@
+<html>
+    <head>
+    <title> Question </title>
+    
+    <script type="text/javascript">
+    flag=1
+    function f1()
+    {
+        alert("Kan bener pasti kaum kaum rebahan ")
+    }
+    function f()
+    {
+        if(flag==1)
+            {
+                Bn.style.top=400
+                Bn.style.left=300
+                flag=2
+            }
+        else if(flag==2)
+            {
+                Bn.style.top=400
+                Bn.style.left=50
+                flag=3
+            }
+        else if(flag==3)
+            {
+                Bn.style.top=370
+                Bn.style.left=166
+                flag=1
+            }
+    }
+    </script>
+    
+    </head>
+    <body>
+    <h1> Question <h1>
+    <img alt="EvilicaCell" src="https://i.pinimg.com/736x/65/e7/f7/65e7f7d2ad290ac008d158dde46fd06b.jpg" height="200" />
+    <h1>Apa yang bikin kamu bahagia banget?</h1>
+    <div id="By" style="position:absolute; left:64px; top:370px; width:210px;
+    height:210px;">
+    <input type="button" value=" Rebahan " onClick="f1()" />
+    </div>
+    <div ID="Bn" style="position:absolute; left:166px; top:370px; width:210px; height:210px;">
+    <input type="button" value=" Jalan-jalan " onMouseOver="f()" />
+    </div>
+    
+    </body>
+    </html>
